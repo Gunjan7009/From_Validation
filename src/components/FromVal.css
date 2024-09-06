@@ -1,0 +1,35 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+h1{
+  align-content: center;
+}
+.main{
+  justify-content: center;
+    /* align-items: center; */
+    display: flex;
+}
+
+.container{
+    display: flex;
+    gap: 20px;
+}
+label{
+    width: 200px;
+}
+.left{
+    margin-bottom: 10px;
+    display: flex;
+}
+
+.error {
+    margin: 0;
+  color: red;
+  font-size: 12px;
+}
+
+button{
+    align-items: center;
+}

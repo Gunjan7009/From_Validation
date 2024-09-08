@@ -1,4 +1,4 @@
-// Form validation using useForm
+
 
 import React from 'react';
 import { useForm } from 'react-hook-form';
@@ -10,15 +10,18 @@ const FormValidation = () => {
         handleSubmit,
         watch,
         formState: { errors },
+        reset,
     } = useForm();
 
     const onSubmit = (data) => {
         console.log("Form Submitted", data);
+
+        reset(); 
     };
 
     return (
         <>
-            <h1>Form Validation</h1>
+            <h1>Form Validation [using useForm]</h1>
             <div className='main'>
                 <form onSubmit={handleSubmit(onSubmit)}>
                     <div className='container'>

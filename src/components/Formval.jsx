@@ -68,7 +68,7 @@ const Formval = () => {
 
   return (
     <>
-    <h1>Form Validation</h1>
+    <h1>Form Validation [using multiple States]</h1>
     <div className='main'>      
       <form onSubmit={handleSubmit}>
         <div className='container'>
